@@ -7,8 +7,23 @@
     align-items: center;
     box-sizing: border-box;
     margin: 6rem 6rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
 }
 .thanks-box .main-title{
     margin-bottom: 28px;
+}
+
+@media  (max-width:650px) {
+    .thanks-box{
+        display: inline-block;
+        background-color: #3A4042;
+        box-shadow: 5px 5px 0 #000;
+        text-align: center;
+        padding: 42px 40px;
+        align-items: center;
+        box-sizing: border-box;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        margin-left: 0rem;
+}
 }
