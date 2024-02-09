@@ -1,0 +1,23 @@
+.click-button{
+    display: inline-block;
+    background-color: darkorchid;
+    font-family: 'Fira Code' ;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #FFFFFF ;
+    padding : 18px 20px;
+    box-shadow: 5px 5px 0px #000000;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+.click-button:hover{
+    transform: scale(1.04);
+}
+.click-button.-full{
+    border:none;
+    width: 96.5%;
+    margin-bottom: 40px;
+    text-align: center;
+}

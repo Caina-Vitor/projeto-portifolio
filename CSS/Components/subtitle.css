@@ -1,0 +1,13 @@
+.subtitle{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    color: #FFF; 
+    text-shadow:5px 5px 0px #000000;
+}
+.thanks-subtitle{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    color: #FFF; 
+    text-shadow:5px 5px 0px #000000;
+    line-height: 2rem;
+}

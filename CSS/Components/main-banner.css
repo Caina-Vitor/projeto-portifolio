@@ -1,0 +1,25 @@
+.main-banner{
+     background-image: url(../../assets/img/Cainã-Vitor.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: auto;
+     height: 70rem;
+     resize: inherit;
+     border-bottom: 10px solid #000000;
+     
+}
+
+.main-banner .wrapper{
+    display: flex;
+    flex-direction: column; 
+    width: 640px ;
+}
+.main-banner .main-box{
+    margin-bottom: 40px;
+    margin-top: 115px;
+    margin-left: 90px;
+}
+.main-banner .navigation{
+    display: flex ;
+    justify-content: space-evenly;
+}

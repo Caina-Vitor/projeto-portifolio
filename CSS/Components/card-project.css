@@ -1,0 +1,13 @@
+.card-project{
+    display: flex;
+    background-color: #B60EE9;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0 #fff;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-project:hover{
+    transform: scale(1.06);
+}

@@ -1,0 +1,9 @@
+
+body{
+    font-family: "Fira Code","Arial", "Helvetica", "Sans-Serif";
+    overflow-inline: hidden;
+}
+body , .title, .subtitle, h3, input{
+    margin: 0 ;
+    padding: 0;
+}
