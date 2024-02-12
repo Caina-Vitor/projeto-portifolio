@@ -24,13 +24,15 @@
     justify-content: space-evenly;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .main-banner {
+        display: flex;
         height: 40rem; 
     }
 }
 @media (max-width: 800px) {
     .main-banner {
+        display: flex;
         height: 40rem;
  }
 }

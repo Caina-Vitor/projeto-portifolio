@@ -5,9 +5,41 @@
     border-bottom: 10px solid #000000;
     padding: 10px 20px;
     
+
+}
+@media (max-width: 760px) {
+
+    .main-header{
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+        padding-right: 2rem;
+    }
+    
+}
+@media (max-width: 950) {
+
+    .main-header{
+        display: inline-flex;
+        width: 20rem;
+        overflow-x: hidden;
+        padding-right: 2rem;
+    }
+    
+}
+@media (max-width: 375px) {
+
+    .main-header{
+        display: inline-flex;
+        width: 375px;
+        overflow-x: hidden;
+        padding-right: 6rem;
+        margin: 0px;
+    }
+    
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:950px) {
     .main-header > .menu{
         display: none;
         background-color: rgba(0, 0, 0, 0.793) ;
@@ -32,10 +64,11 @@
 
     }
 }
-@media screen and (min-width:1000px) {
+@media screen and (min-width: 950px) {
     .main-header > .icon-menu{
         display: none;
     }
 
 }
+
 
