@@ -1,5 +1,6 @@
 .main-form{
 padding: 50px 40px;
+background-color: #525252;
 }
 .main-form .main-title{
     margin-bottom:50px;
@@ -10,3 +11,12 @@ padding: 50px 40px;
 .main-form .main-input:last-of-type{
     margin-bottom: 40px;
 }
+
+
+@media (min-width: 300px) and (max-width: 950px){
+    .main-form{
+        width: 100%;
+        padding-left: 1.66rem;
+        padding-right: 1.66rem;
+    }
+} 

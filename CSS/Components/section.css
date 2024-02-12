@@ -11,3 +11,12 @@
     background-color: #000;
     border-bottom: 10px solid #191970;
 }
+
+@media (min-width: 300px) and (max-width: 950px) {
+
+    .section{
+        width: 100%;
+        overflow-x: hidden;
+        padding-right: 3.3rem;
+    }
+}

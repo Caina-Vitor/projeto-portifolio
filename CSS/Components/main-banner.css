@@ -4,7 +4,6 @@
      background-size: cover;
      width: auto;
      height: 70rem;
-     resize: inherit;
      border-bottom: 10px solid #000000;
      
 }
@@ -24,7 +23,23 @@
     justify-content: space-evenly;
 }
 
-@media (max-width: 750px) {
+@media (min-width: 300px) and (max-width: 950px){
+    .main-banner .main-box{
+        display: block;
+        margin-bottom: 40px;
+        margin-top: 115px;
+        margin-left: 0;
+    } 
+}
+@media (min-width: 300px) and (max-width: 950px) {
+
+    .main-banner{
+        width: 100%;
+        overflow-x: hidden;
+        padding-right: 2rem;
+    }
+}
+/*@media (max-width: 750px) {
     .main-banner {
         display: flex;
         height: 40rem; 
@@ -35,4 +50,4 @@
         display: flex;
         height: 40rem;
  }
-}
+}*/

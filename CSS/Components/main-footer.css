@@ -25,3 +25,13 @@
     margin-right: 28px;
     padding-bottom: 10px;
 }
+
+
+@media (min-width: 300px) and (max-width: 950px){
+  .main-footer{
+        width: 100%;
+        overflow-x: hidden;
+        padding-left: 1.65rem;
+        padding-right: 1.65rem;
+  }
+} 
