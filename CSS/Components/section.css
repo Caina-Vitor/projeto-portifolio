@@ -17,6 +17,7 @@
     .section{
         width: 100%;
         overflow-x: hidden;
-        padding-right: 3.3rem;
+        padding-left: 1.65rem;
+        padding-right: 1.65rem;
     }
 }
