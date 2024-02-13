@@ -8,7 +8,7 @@
 }
 
 
-@media (min-width:2000px) and (max-width:3542px) {
+@media (min-width:1441px) and (max-width:3542px) {
     .thanks-title{
         font-size: 5rem;
         text-shadow: 10px 10px 0px #000;
@@ -17,5 +17,17 @@
         font-size: 2.5rem;
         line-height: 3rem;
         text-shadow: 10px 10px 0px #000;
+    }
+}
+
+@media (min-width:900px) and (max-width:1505px) {
+    .thanks-title{
+        font-size: 3rem;
+        text-shadow: 7px 7px 0px #000;
+    }
+    .thanks-subtitle{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        text-shadow: 7px 7px 0px #000;
     }
 }

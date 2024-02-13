@@ -2,9 +2,15 @@
     background-color: #9932cc;
 }
 
-@media (min-width:2000px) and (max-width:3542px) {
+@media (min-width:1441px) and (max-width:3542px) {
     .thanks-section{
         padding-top: 5rem;
         padding-bottom: 5rem;
+    }
+}
+
+@media (min-width:900px) and (max-width:1441px) {
+    .thanks-section{
+        
     }
 }

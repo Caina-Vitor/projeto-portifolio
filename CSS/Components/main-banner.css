@@ -23,7 +23,7 @@
     justify-content: space-evenly;
 }
 
-@media (min-width: 300px) and (max-width: 950px){
+@media (min-width: 300px) and (max-width: 951px){
     .main-banner .main-box{
         display: block;
         margin-bottom: 40px;
@@ -31,14 +31,31 @@
         margin-left: 0;
     } 
 }
-@media (min-width: 300px) and (max-width: 950px) {
+@media (min-width: 300px) and (max-width: 951px) {
 
     .main-banner{
-        width: 100%;
+        width: 949px;
         overflow-x: hidden;
         padding-right: 2rem;
     }
 }
+@media (min-width: 250px) and (max-width: 426px) {
+
+    .main-banner{
+        width: 949px;
+        overflow-x: hidden;
+        padding-right: 2rem;
+    }
+}
+@media (min-width: 422px) and (max-width: 426px) {
+
+    .main-banner{
+        width: 949px;
+        overflow-x: hidden;
+        padding-right: 2rem;
+    }
+}
+
 /*@media (max-width: 750px) {
     .main-banner {
         display: flex;

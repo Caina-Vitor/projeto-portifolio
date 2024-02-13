@@ -28,10 +28,18 @@
 }
 }
 
-@media (min-width:2000px) and (max-width:3542px) {
+@media (min-width:1440px) and (max-width:3542px) {
     .thanks-box{
         padding-top: 11.7rem;
         padding-bottom: 11.7rem;
+        box-shadow: 15px 15px 0 #000;
+    }
+}
+
+@media (min-width:900px) and (max-width:1505px) {
+    .thanks-box{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         box-shadow: 15px 15px 0 #000;
     }
 }
