@@ -23,7 +23,7 @@
     justify-content: space-evenly;
 }
 
-@media (min-width: 300px) and (max-width: 951px){
+@media (min-width: 250px) and (max-width: 426px){
     .main-banner .main-box{
         display: block;
         margin-bottom: 40px;
@@ -32,7 +32,7 @@
     } 
 }
 
-@media (min-width: 250px) and (max-width: 951px) {
+@media (min-width: 250px) and (max-width: 426px) {
 
     .main-banner{
         background-image: url(../../assets/img/banner-mobile.jpg);

@@ -13,7 +13,7 @@ background-color: #525252;
 }
 
 
-@media (min-width: 250px) and (max-width: 951px){
+@media (min-width: 250px) and (max-width: 426px){
     .main-form{
         width: 900px;
         padding-left: 1.66rem;

@@ -27,7 +27,7 @@
 }
 
 
-@media (min-width: 250px) and (max-width: 951px){
+@media (min-width: 250px) and (max-width: 426px){
   .main-footer{
         width: 900px;
         overflow-x: hidden;

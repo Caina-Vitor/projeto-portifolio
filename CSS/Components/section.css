@@ -12,7 +12,7 @@
     border-bottom: 10px solid #191970;
 }
 
-@media (min-width: 250px) and (max-width: 951px) {
+@media (min-width: 250px) and (max-width: 426px) {
 
     .section{
         width: 900px;
