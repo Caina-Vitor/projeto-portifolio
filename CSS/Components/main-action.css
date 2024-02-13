@@ -24,3 +24,28 @@
 .main-action:focus{
    color: #a4a4a4;
 }
+
+@media (min-width:2000px) and (max-width:3542px) {
+    .main-action{
+        display: inline-flex;
+        align-items: center;
+        font-family: 'Fira Code' ;
+        font-size: 30px;
+        color: #FFFFFF ;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+    .main-action::before{
+        content: "";
+        background-color: darkorchid;
+        height: 15px;
+        width: 15px;
+        margin-right: 20px;
+        
+    }
+    .main-action:hover,
+    .main-action:focus{
+        color: #a4a4a4;
+}
+}

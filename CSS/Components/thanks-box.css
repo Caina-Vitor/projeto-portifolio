@@ -27,3 +27,11 @@
         margin-left: 0rem;
 }
 }
+
+@media (min-width:2000px) and (max-width:3542px) {
+    .thanks-box{
+        padding-top: 11.7rem;
+        padding-bottom: 11.7rem;
+        box-shadow: 15px 15px 0 #000;
+    }
+}

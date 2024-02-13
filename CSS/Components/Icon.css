@@ -4,3 +4,13 @@
     padding: 0;
     margin: 0;   
 }
+
+@media (min-width:2000px) and (max-width:3542px) {
+    .header-icon{
+        display: flex;
+        width:100px;
+        height: 100px;
+        box-shadow: 10px 10px 0px #000000; 
+        
+    }
+}
