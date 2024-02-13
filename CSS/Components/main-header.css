@@ -27,14 +27,11 @@
     }
     
 }*/
-@media (max-width: 375px) {
+@media (min-width: 200px) and (max-width: 951px) {
 
     .main-header{
-        display: inline-flex;
-        width: 375px;
+        width: 900px;
         overflow-x: hidden;
-        padding-right: 6rem;
-        margin: 0px;
     }
     
 }

@@ -12,10 +12,10 @@
     border-bottom: 10px solid #191970;
 }
 
-@media (min-width: 300px) and (max-width: 950px) {
+@media (min-width: 250px) and (max-width: 951px) {
 
     .section{
-        width: 100%;
+        width: 900px;
         overflow-x: hidden;
         padding-left: 1.65rem;
         padding-right: 1.65rem;
