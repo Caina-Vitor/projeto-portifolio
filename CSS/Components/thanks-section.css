@@ -9,8 +9,9 @@
     }
 }
 
-@media (min-width:900px) and (max-width:1441px) {
+@media (min-width:200px) and (max-width:950px) {
     .thanks-section{
-        
+        width: 950px;
+        padding-left: 3.5rem;
     }
 }

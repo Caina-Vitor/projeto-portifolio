@@ -1,0 +1,51 @@
+.thanks-action{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Fira Code' ;
+    font-size: 20px;
+    color: #FFFFFF ;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+
+
+.thanks-action::before{
+    content: "";
+    background-color: darkorchid;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    
+}
+
+.thanks-action:hover,
+.thanks-action:focus{
+   color: #a4a4a4;
+}
+
+@media (min-width:1440px) and (max-width:3542px) {
+    .thanks-action{
+        display: inline-flex;
+        align-items: center;
+        font-family: 'Fira Code' ;
+        font-size: 30px;
+        color: #FFFFFF ;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+    .thanks-action::before{
+        content: "";
+        background-color: darkorchid;
+        height: 15px;
+        width: 15px;
+        margin-right: 20px;
+        
+    }
+    .thanks-action:hover,
+    .thanks-action:focus{
+        color: #a4a4a4;
+}
+}
