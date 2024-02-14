@@ -25,7 +25,7 @@
    color: #a4a4a4;
 }
 
-@media (min-width:1440px) and (max-width:3542px) {
+@media (min-width:1441px) and (max-width:3542px) {
     .main-action{
         display: inline-flex;
         align-items: center;
