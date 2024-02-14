@@ -13,9 +13,17 @@ background-color: #525252;
 }
 
 
-@media (min-width: 250px) and (max-width: 426px){
+@media (max-width: 321px){
     .main-form{
-        width: 900px;
+        width: 320px;
+        padding-left: 1.66rem;
+        padding-right: 1.66rem;
+    }
+} 
+
+@media (min-width: 321px) and (max-width: 376px){
+    .main-form{
+        width: 375px;
         padding-left: 1.66rem;
         padding-right: 1.66rem;
     }

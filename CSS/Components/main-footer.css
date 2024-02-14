@@ -27,11 +27,20 @@
 }
 
 
-@media (min-width: 250px) and (max-width: 426px){
+@media (max-width: 321px){
   .main-footer{
-        width: 900px;
+        width: 320px;
         overflow-x: hidden;
         padding-left: 1.7rem;
         padding-right: 1.7rem;
   }
 } 
+
+@media (min-width: 321px) and (max-width: 376px){
+    .main-footer{
+          width: 375px;
+          overflow-x: hidden;
+          padding-left: 1.7rem;
+          padding-right: 1.7rem;
+    }
+  } 
