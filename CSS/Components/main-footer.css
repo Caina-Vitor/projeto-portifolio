@@ -26,21 +26,13 @@
     padding-bottom: 10px;
 }
 
+@media (min-width: 200px) and (max-width: 950px) {
 
-@media (max-width: 321px){
-  .main-footer{
-        width: 320px;
+    .main-footer{
+        width: 950px;
         overflow-x: hidden;
         padding-left: 1.7rem;
         padding-right: 1.7rem;
   }
-} 
-
-@media (min-width: 321px) and (max-width: 376px){
-    .main-footer{
-          width: 375px;
-          overflow-x: hidden;
-          padding-left: 1.7rem;
-          padding-right: 1.7rem;
-    }
-  } 
+ 
+}

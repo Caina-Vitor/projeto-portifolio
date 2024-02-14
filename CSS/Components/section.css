@@ -12,22 +12,13 @@
     border-bottom: 10px solid #191970;
 }
 
-@media (max-width: 321px) {
+@media (min-width: 200px) and (max-width: 950px) {
 
     .section{
-        width: 320px;
+        width: 950px;
         overflow-x: hidden;
         padding-left: 1.65rem;
         padding-right: 1.65rem;
     }
-}
-
-@media (min-width: 321px) and (max-width: 376px) {
-
-    .section{
-        width: 375px;
-        overflow-x: hidden;
-        padding-left: 1.65rem;
-        padding-right: 1.65rem;
-    }
+ 
 }

@@ -32,23 +32,13 @@
     } 
 }
 
-@media (max-width: 321px) {
+@media (min-width: 200px) and (max-width: 950px) {
 
     .main-banner{
         background-image: url(../../assets/img/banner-mobile.jpg);
-        width: 370px;
-        align-items: center;
+        width: 1000px;
+        height: 100rem;
         overflow-x: hidden;
     }
+ 
 }
-
-@media (min-width: 321px) and (max-width: 376px) {
-
-    .main-banner{
-        background-image: url(../../assets/img/banner-mobile.jpg);
-        width: 370px;
-        align-items: center;
-        overflow-x: hidden;
-    }
-}
-

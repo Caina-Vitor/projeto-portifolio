@@ -59,19 +59,11 @@
     }
 }
 
-@media (max-width: 321px) {
+
+@media (min-width: 200px) and (max-width: 950px) {
 
     .main-header{
-        width: 332px;
-        overflow-x: hidden;
-    }
- 
-}
-
-@media (min-width: 321px) and (max-width: 376px) {
-
-    .main-header{
-        width: 375px;
+        width: 955px;
         overflow-x: hidden;
     }
  
